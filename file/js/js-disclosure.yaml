@@ -2,9 +2,9 @@
 id: credentials-disclosure-all
 info:
   name: Credentials Disclosure - All Patterns
-  author: w9w, SecurityJoes
+  author: jvs3c
   severity: medium
-  description: Scans response body for sensitive credentials, tokens, and keys using comprehensive regex patterns. Improved for false positive reduction and value extraction.
+  description: Usage "cat alljsurls.txt | nuclei -t credentials-disclosure-all.yaml -c 30"  Scans response body for sensitive credentials, tokens, and keys using comprehensive regex patterns. Improved for false positive reduction and value extraction.
   tags: token, exposure, config, credentials
 
 requests:
